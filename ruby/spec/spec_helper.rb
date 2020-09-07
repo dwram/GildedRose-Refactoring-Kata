@@ -9,6 +9,7 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
                                                                ])
 SimpleCov.start
 
+require_relative '../lib/item-interface'
 require_relative '../lib/items'
 require_relative './helpers'
 
