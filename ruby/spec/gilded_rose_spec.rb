@@ -132,7 +132,7 @@ describe GildedRose do
 
     end
 
-    context 'quality > 0 and quality < 49' do
+    context 'quality 1' do
 
       context 'sell in 11' do
         it 'quality update with foo' do
