@@ -13,7 +13,3 @@ end
 def item(sell_in, quality, name = 'foo')
   [Item.create_item(name, sell_in, quality)]
 end
-
-def generate_item(sell_in, quality, name)
-  [Item.new(name, sell_in, quality)]
-end

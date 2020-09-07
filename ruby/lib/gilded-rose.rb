@@ -1,5 +1,3 @@
-require_relative './item-interface'
-
 class GildedRose
   attr_reader :items
 

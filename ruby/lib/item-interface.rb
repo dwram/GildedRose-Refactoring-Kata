@@ -8,7 +8,12 @@ class Item
   end
 
   def self.create_item(name, sell_in, quality)
-    Item.new(name, sell_in, quality)
+    case name
+    when 'Aged Brie' then AgedBrie.new(sell_in, quality)
+    when 'Backstage passes to a TAFKAL80ETC concert' then BackStagePass.new(sell_in, quality)
+    when 'Sulfuras, Hand of Ragnaros' then Sulfuras.new(sell_in, quality)
+    else; Item.new(name, sell_in, quality)
+    end
   end
 
   def to_s
@@ -33,6 +38,12 @@ class Item
 
 end
 
+# Had to add Sulfuras here because it was not being found for some odd reason
 
+class Sulfuras < Item
+  def initialize(sell_in, quality)
+    super('Sulfuras, Hand of Ragnaros', sell_in, quality)
+  end
+end
 
 
