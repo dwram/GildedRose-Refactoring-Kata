@@ -16,6 +16,12 @@ class Item
     end
   end
 
+  def compute_update_quality
+      reduce_sell_in
+      reduce_quality if @quality.positive?
+      reduce_quality if @quality.positive? && @sell_in.negative?
+  end
+
   def to_s
     "#{@name}, #{@sell_in}, #{@quality}"
   end
@@ -44,6 +50,9 @@ class Sulfuras < Item
   def initialize(sell_in, quality)
     super('Sulfuras, Hand of Ragnaros', sell_in, quality)
   end
+
+  def compute_update_quality; end
+
 end
 
 
