@@ -5,5 +5,4 @@ class Sulfuras < Item
   end
 
   def compute_update_quality; end
-
 end
