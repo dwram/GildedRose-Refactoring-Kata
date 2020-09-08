@@ -20,7 +20,7 @@ describe GildedRose do
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(11, 0))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 11, 0'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 11, 80'
         end
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(backstage_item(11, 0))
@@ -43,7 +43,7 @@ describe GildedRose do
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(6, 0))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 6, 0'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 6, 80'
         end
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(backstage_item(6, 0))
@@ -68,7 +68,7 @@ describe GildedRose do
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(3, 0))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 3, 0'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 3, 80'
         end
 
         it 'quality update with backstage passes' do
@@ -94,7 +94,7 @@ describe GildedRose do
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(0, 0))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 0, 0'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 0, 80'
         end
 
         it 'quality update with backstage passes' do
@@ -120,7 +120,7 @@ describe GildedRose do
         it 'quality update with Hand of Sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(-1, 0))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, -1, 0'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, -1, 80'
         end
 
         it 'quality update with backstage pass' do
@@ -148,7 +148,7 @@ describe GildedRose do
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(11, 1))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 11, 1'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 11, 80'
         end
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(backstage_item(11, 1))
@@ -171,7 +171,7 @@ describe GildedRose do
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(6, 1))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 6, 1'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 6, 80'
         end
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(backstage_item(6, 1))
@@ -196,7 +196,7 @@ describe GildedRose do
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(3, 1))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 3, 1'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 3, 80'
         end
 
         it 'quality update with backstage passes' do
@@ -216,7 +216,7 @@ describe GildedRose do
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(0, 1))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 0, 1'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 0, 80'
         end
         it 'quality update with backstage passes' do
           gilded_rose = GildedRose.new(backstage_item(0, 1))
@@ -246,7 +246,7 @@ describe GildedRose do
         it 'quality update with Hand of Sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(-1, 1))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, -1, 1'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, -1, 80'
         end
 
         it 'quality update with backstage pass' do
@@ -274,7 +274,7 @@ describe GildedRose do
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(11, 50))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 11, 50'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 11, 80'
         end
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(backstage_item(11, 50))
@@ -299,7 +299,7 @@ describe GildedRose do
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(3, 50))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 3, 50'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 3, 80'
         end
 
         it 'quality update with backstage passes' do
@@ -323,7 +323,7 @@ describe GildedRose do
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(6, 50))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 6, 50'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 6, 80'
         end
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(backstage_item(6, 50))
@@ -346,7 +346,7 @@ describe GildedRose do
         it 'quality update with Hand of Sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(1, 50))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 1, 50'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 1, 80'
         end
         it 'quality update with backstage passes' do
           gilded_rose = GildedRose.new(backstage_item(1, 50))
@@ -369,7 +369,7 @@ describe GildedRose do
         it 'quality update with Hand of Sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(-1, 50))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, -1, 50'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, -1, 80'
         end
         it 'quality update with backstage passes' do
           gilded_rose = GildedRose.new(backstage_item(-1, 50))
@@ -396,7 +396,7 @@ describe GildedRose do
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(11, 49))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 11, 49'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 11, 80'
         end
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(backstage_item(11, 49))
@@ -419,7 +419,7 @@ describe GildedRose do
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(6, 49))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 6, 49'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 6, 80'
         end
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(backstage_item(6, 49))
@@ -444,7 +444,7 @@ describe GildedRose do
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(3, 49))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 3, 49'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 3, 80'
         end
 
         it 'quality update with backstage passes' do
@@ -470,7 +470,7 @@ describe GildedRose do
         it 'quality update with hand of sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(0, 49))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 0, 49'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, 0, 80'
         end
 
         it 'quality update with backstage passes' do
@@ -496,7 +496,7 @@ describe GildedRose do
         it 'quality update with Hand of Sulfuras' do
           gilded_rose = GildedRose.new(sulfuras_item(-1, 49))
           gilded_rose.update_quality
-          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, -1, 49'
+          expect(gilded_rose.items[0].to_s).to eq 'Sulfuras, Hand of Ragnaros, -1, 80'
         end
 
         it 'quality update with backstage pass' do
