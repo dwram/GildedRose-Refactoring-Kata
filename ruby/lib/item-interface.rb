@@ -18,9 +18,9 @@ class Item
   end
 
   def compute_update_quality
-      reduce_sell_in
-      reduce_quality if @quality.positive?
-      reduce_quality if @quality.positive? && @sell_in.negative?
+    reduce_sell_in
+    reduce_quality if @quality.positive?
+    reduce_quality if @quality.positive? && @sell_in.negative?
   end
 
   def to_s
