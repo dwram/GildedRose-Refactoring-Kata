@@ -12,4 +12,5 @@ class BackStagePass < Item
     reduce_sell_in
     reset_quality if @sell_in.negative?
   end
+
 end

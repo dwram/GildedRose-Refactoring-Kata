@@ -10,6 +10,10 @@ def backstage_item(sell_in, quality, name = 'Backstage passes to a TAFKAL80ETC c
   [Item.create_item(name, sell_in, quality)]
 end
 
+def conjured_item(sell_in, quality, name = 'Conjured Item')
+  [Item.create_item(name, sell_in, quality)]
+end
+
 def item(sell_in, quality, name = 'foo')
   [Item.create_item(name, sell_in, quality)]
 end

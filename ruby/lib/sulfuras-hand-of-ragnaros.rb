@@ -6,3 +6,5 @@ class Sulfuras < Item
   def compute_update_quality; end
 
 end
+
+# TODO: MAke hand of Sulfuras quality 80, permanently.
